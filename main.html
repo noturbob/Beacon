@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Vehicle Tracking System</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <div>
+        <img src="bus.png" class="bus-image">
+    </div>
+</head>
+<body>
+    <nav class="navbar" data-aos="slide-down">
+        <div class="navbar-logo">Vehicle Tracking</div>
+        <div class="navbar-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Live Tracking</a></li>
+            <li><a href="#">Reports</a></li>
+            <li class="dropdown" id="settings-dropdown">
+                <a href="#" class="dropdown-link">Settings</a>
+                <div class="dropdown-menu" id="settings-menu">
+                    <ul>
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Real-Time Vehicle Tracking</h1>
+    </header>
+    <main>
+        <!-- Map container -->
+    <div class="map-container" id="map"></div>
+
+    <!-- Rest of your content -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAirLpp05OKI8HND1H_FNWcTnP8y5j66cQ&callback=initializeMap" defer></script>
+    <script src="j.js"></script>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Vehicle Tracking System</p>
+    </footer>
+    <script src="j.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 500,
+        duration: 800
+      });
+    </script>
+</body>
+</html>
