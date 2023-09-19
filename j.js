@@ -1,7 +1,7 @@
 // Initialize Google Map
 function initializeMap() {
     const mapOptions = {
-        center: { lat: 17.395041808148864, lng: 78.47801982647863 }, // Initial map center (e.g., St. Joseph's Extended Campus)
+        center: { lat: 17.395041808148864, lng: -78.47801982647863 }, // Initial map center (e.g., St. Joseph's Extended Campus)
         zoom: 12, // Initial zoom level
     };
 
