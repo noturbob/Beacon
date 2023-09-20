@@ -1,3 +1,8 @@
+// Define a sample busData array
+const busData = [
+    { name: 'Bus 1', lat: 17.395041808148864, lng: 78.47801982647863 },
+    // Add more bus data entries as needed
+];
 // Initialize Google Map
 function initializeMap() {
     const mapOptions = {
